@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"sort"
 
+	"github.com/DollarCoinman/gocryptotrader/backtester/common"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/portfolio"
+	gctcommon "github.com/DollarCoinman/gocryptotrader/common"
+	"github.com/DollarCoinman/gocryptotrader/common/convert"
+	"github.com/DollarCoinman/gocryptotrader/currency"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/asset"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/order"
+	"github.com/DollarCoinman/gocryptotrader/log"
 	"github.com/shopspring/decimal"
-	"github.com/thrasher-corp/gocryptotrader/backtester/common"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/portfolio"
-	gctcommon "github.com/thrasher-corp/gocryptotrader/common"
-	"github.com/thrasher-corp/gocryptotrader/common/convert"
-	"github.com/thrasher-corp/gocryptotrader/currency"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/asset"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/order"
-	"github.com/thrasher-corp/gocryptotrader/log"
 )
 
 const (

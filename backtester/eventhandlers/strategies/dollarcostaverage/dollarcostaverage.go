@@ -1,14 +1,14 @@
 package dollarcostaverage
 
 import (
-	"github.com/thrasher-corp/gocryptotrader/backtester/common"
-	"github.com/thrasher-corp/gocryptotrader/backtester/data"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/portfolio"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/strategies/base"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventtypes/signal"
-	"github.com/thrasher-corp/gocryptotrader/backtester/funding"
-	gctcommon "github.com/thrasher-corp/gocryptotrader/common"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/order"
+	"github.com/DollarCoinman/gocryptotrader/backtester/common"
+	"github.com/DollarCoinman/gocryptotrader/backtester/data"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/portfolio"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/strategies/base"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventtypes/signal"
+	"github.com/DollarCoinman/gocryptotrader/backtester/funding"
+	gctcommon "github.com/DollarCoinman/gocryptotrader/common"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/order"
 )
 
 const (

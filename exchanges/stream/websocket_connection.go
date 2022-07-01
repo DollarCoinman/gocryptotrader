@@ -14,8 +14,8 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/DollarCoinman/gocryptotrader/log"
 	"github.com/gorilla/websocket"
-	"github.com/thrasher-corp/gocryptotrader/log"
 )
 
 // SendMessageReturnResponse will send a WS message to the connection and wait

@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
+	gctorder "github.com/DollarCoinman/gocryptotrader/exchanges/order"
 	"github.com/shopspring/decimal"
-	gctorder "github.com/thrasher-corp/gocryptotrader/exchanges/order"
 )
 
 func TestBaseInitialFunds(t *testing.T) {

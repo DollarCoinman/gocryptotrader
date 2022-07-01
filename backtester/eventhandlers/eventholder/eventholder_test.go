@@ -3,8 +3,8 @@ package eventholder
 import (
 	"testing"
 
-	"github.com/thrasher-corp/gocryptotrader/backtester/common"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventtypes/order"
+	"github.com/DollarCoinman/gocryptotrader/backtester/common"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventtypes/order"
 )
 
 func TestReset(t *testing.T) {

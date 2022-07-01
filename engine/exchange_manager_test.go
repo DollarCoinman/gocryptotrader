@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	exchange "github.com/thrasher-corp/gocryptotrader/exchanges"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/bitfinex"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/sharedtestvalues"
+	exchange "github.com/DollarCoinman/gocryptotrader/exchanges"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/bitfinex"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/sharedtestvalues"
 )
 
 func TestSetupExchangeManager(t *testing.T) {

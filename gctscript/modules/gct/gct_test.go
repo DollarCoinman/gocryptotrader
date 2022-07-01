@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/DollarCoinman/gocryptotrader/exchanges/asset"
+	"github.com/DollarCoinman/gocryptotrader/gctscript/modules"
+	"github.com/DollarCoinman/gocryptotrader/gctscript/wrappers/validator"
 	objects "github.com/d5/tengo/v2"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/asset"
-	"github.com/thrasher-corp/gocryptotrader/gctscript/modules"
-	"github.com/thrasher-corp/gocryptotrader/gctscript/wrappers/validator"
 )
 
 var (

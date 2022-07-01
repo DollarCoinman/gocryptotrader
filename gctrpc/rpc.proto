@@ -5,7 +5,7 @@ package gctrpc;
 import "google/api/annotations.proto";
 import "google/protobuf/timestamp.proto";
 
-option go_package = "github.com/thrasher-corp/gocryptotrader/gctrpc";
+option go_package = "github.com/DollarCoinman/gocryptotrader/gctrpc";
 
 message GetInfoRequest {}
 

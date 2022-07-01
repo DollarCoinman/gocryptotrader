@@ -1,12 +1,12 @@
 # GoCryptoTrader ADD NEW EXCHANGE
 
-<img src="https://github.com/thrasher-corp/gocryptotrader/blob/master/web/src/assets/page-logo.png?raw=true" width="350px" height="350px" hspace="70">
+<img src="https://github.com/DollarCoinman/gocryptotrader/blob/master/web/src/assets/page-logo.png?raw=true" width="350px" height="350px" hspace="70">
 
-[![Build Status](https://github.com/thrasher-corp/gocryptotrader/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/thrasher-corp/gocryptotrader/actions/workflows/tests.yml)
-[![Software License](https://img.shields.io/badge/License-MIT-orange.svg?style=flat-square)](https://github.com/thrasher-corp/gocryptotrader/blob/master/LICENSE)
-[![GoDoc](https://godoc.org/github.com/thrasher-corp/gocryptotrader?status.svg)](https://godoc.org/github.com/thrasher-corp/gocryptotrader/exchanges)
+[![Build Status](https://github.com/DollarCoinman/gocryptotrader/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/DollarCoinman/gocryptotrader/actions/workflows/tests.yml)
+[![Software License](https://img.shields.io/badge/License-MIT-orange.svg?style=flat-square)](https://github.com/DollarCoinman/gocryptotrader/blob/master/LICENSE)
+[![GoDoc](https://godoc.org/github.com/DollarCoinman/gocryptotrader?status.svg)](https://godoc.org/github.com/DollarCoinman/gocryptotrader/exchanges)
 [![Coverage Status](http://codecov.io/github/thrasher-corp/gocryptotrader/coverage.svg?branch=master)](http://codecov.io/github/thrasher-corp/gocryptotrader?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/thrasher-corp/gocryptotrader)](https://goreportcard.com/report/github.com/thrasher-corp/gocryptotrader)
+[![Go Report Card](https://goreportcard.com/badge/github.com/DollarCoinman/gocryptotrader)](https://goreportcard.com/report/github.com/DollarCoinman/gocryptotrader)
 
 This exchanges package is part of the GoCryptoTrader codebase.
 
@@ -27,7 +27,7 @@ GoCryptoTrader is built using [Go Modules](https://github.com/golang/go/wiki/Mod
 Using Go Modules you now clone this repository **outside** your GOPATH
 
 ```bash
-git clone https://github.com/thrasher-corp/gocryptotrader.git
+git clone https://github.com/DollarCoinman/gocryptotrader.git
 cd gocryptotrader/cmd/exchange_template
 go run exchange_template.go -name FTX -ws -rest
 ```
@@ -35,7 +35,7 @@ go run exchange_template.go -name FTX -ws -rest
 #### Windows
 
 ```bash
-git clone https://github.com/thrasher-corp/gocryptotrader.git
+git clone https://github.com/DollarCoinman/gocryptotrader.git
 cd gocryptotrader\cmd\exchange_template
 go run exchange_template.go -name FTX -ws -rest
 ```
@@ -1241,4 +1241,4 @@ Please test all `pair` commands to disable and enable different assets types to 
 
 ## Open a PR
 
-Submitting a PR is easy and all are welcome additions to the public repository. Submit via github.com/thrasher-corp/gocryptotrader or contact our team via slack for more information. 
+Submitting a PR is easy and all are welcome additions to the public repository. Submit via github.com/DollarCoinman/gocryptotrader or contact our team via slack for more information. 

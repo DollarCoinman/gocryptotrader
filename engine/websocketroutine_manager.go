@@ -4,16 +4,16 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/thrasher-corp/gocryptotrader/common"
-	"github.com/thrasher-corp/gocryptotrader/currency"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/account"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/fill"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/order"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/orderbook"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/stream"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/ticker"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/trade"
-	"github.com/thrasher-corp/gocryptotrader/log"
+	"github.com/DollarCoinman/gocryptotrader/common"
+	"github.com/DollarCoinman/gocryptotrader/currency"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/account"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/fill"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/order"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/orderbook"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/stream"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/ticker"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/trade"
+	"github.com/DollarCoinman/gocryptotrader/log"
 )
 
 // setupWebsocketRoutineManager creates a new websocket routine manager

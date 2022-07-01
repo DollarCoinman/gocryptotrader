@@ -1,11 +1,11 @@
 package signal
 
 import (
+	"github.com/DollarCoinman/gocryptotrader/backtester/common"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventtypes/event"
+	"github.com/DollarCoinman/gocryptotrader/currency"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/order"
 	"github.com/shopspring/decimal"
-	"github.com/thrasher-corp/gocryptotrader/backtester/common"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventtypes/event"
-	"github.com/thrasher-corp/gocryptotrader/currency"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/order"
 )
 
 // Event handler is used for getting trade signal details

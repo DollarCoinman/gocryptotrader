@@ -3,13 +3,13 @@ package portfolio
 import (
 	"strings"
 
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/exchange"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/portfolio/compliance"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/portfolio/risk"
+	"github.com/DollarCoinman/gocryptotrader/currency"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/asset"
+	gctorder "github.com/DollarCoinman/gocryptotrader/exchanges/order"
 	"github.com/shopspring/decimal"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/exchange"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/portfolio/compliance"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/portfolio/risk"
-	"github.com/thrasher-corp/gocryptotrader/currency"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/asset"
-	gctorder "github.com/thrasher-corp/gocryptotrader/exchanges/order"
 )
 
 // Setup creates a portfolio manager instance and sets private fields

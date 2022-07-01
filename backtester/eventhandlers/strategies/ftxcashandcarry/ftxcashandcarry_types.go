@@ -3,8 +3,8 @@ package ftxcashandcarry
 import (
 	"errors"
 
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/strategies/base"
 	"github.com/shopspring/decimal"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/strategies/base"
 )
 
 const (

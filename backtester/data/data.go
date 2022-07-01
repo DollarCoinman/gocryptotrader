@@ -5,9 +5,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/thrasher-corp/gocryptotrader/backtester/common"
-	"github.com/thrasher-corp/gocryptotrader/currency"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/asset"
+	"github.com/DollarCoinman/gocryptotrader/backtester/common"
+	"github.com/DollarCoinman/gocryptotrader/currency"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/asset"
 )
 
 // Setup creates a basic map

@@ -3,12 +3,12 @@ package statistics
 import (
 	"fmt"
 
+	"github.com/DollarCoinman/gocryptotrader/backtester/common"
+	gctcommon "github.com/DollarCoinman/gocryptotrader/common"
+	gctmath "github.com/DollarCoinman/gocryptotrader/common/math"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/asset"
+	gctorder "github.com/DollarCoinman/gocryptotrader/exchanges/order"
 	"github.com/shopspring/decimal"
-	"github.com/thrasher-corp/gocryptotrader/backtester/common"
-	gctcommon "github.com/thrasher-corp/gocryptotrader/common"
-	gctmath "github.com/thrasher-corp/gocryptotrader/common/math"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/asset"
-	gctorder "github.com/thrasher-corp/gocryptotrader/exchanges/order"
 )
 
 // CalculateResults calculates all statistics for the exchange, asset, currency pair

@@ -3,7 +3,7 @@ package cache
 import (
 	"testing"
 
-	"github.com/thrasher-corp/gocryptotrader/common/convert"
+	"github.com/DollarCoinman/gocryptotrader/common/convert"
 )
 
 func TestCache(t *testing.T) {

@@ -21,10 +21,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/thrasher-corp/gocryptotrader/common"
-	"github.com/thrasher-corp/gocryptotrader/currency/forexprovider/base"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/request"
-	"github.com/thrasher-corp/gocryptotrader/log"
+	"github.com/DollarCoinman/gocryptotrader/common"
+	"github.com/DollarCoinman/gocryptotrader/currency/forexprovider/base"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/request"
+	"github.com/DollarCoinman/gocryptotrader/log"
 )
 
 // Setup sets appropriate values for CurrencyLayer

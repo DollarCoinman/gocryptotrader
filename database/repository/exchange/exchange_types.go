@@ -3,8 +3,8 @@ package exchange
 import (
 	"errors"
 
+	"github.com/DollarCoinman/gocryptotrader/common/cache"
 	"github.com/gofrs/uuid"
-	"github.com/thrasher-corp/gocryptotrader/common/cache"
 )
 
 var (

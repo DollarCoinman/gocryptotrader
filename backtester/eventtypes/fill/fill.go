@@ -1,9 +1,9 @@
 package fill
 
 import (
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventtypes/signal"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/order"
 	"github.com/shopspring/decimal"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventtypes/signal"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/order"
 )
 
 // SetDirection sets the direction

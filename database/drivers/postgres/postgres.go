@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	// import go libpq driver package
+	"github.com/DollarCoinman/gocryptotrader/database"
 	_ "github.com/lib/pq"
-	"github.com/thrasher-corp/gocryptotrader/database"
 )
 
 // Connect opens a connection to Postgres database and returns a pointer to database.DB

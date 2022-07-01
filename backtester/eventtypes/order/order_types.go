@@ -1,11 +1,11 @@
 package order
 
 import (
+	"github.com/DollarCoinman/gocryptotrader/backtester/common"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventtypes/event"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventtypes/signal"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/order"
 	"github.com/shopspring/decimal"
-	"github.com/thrasher-corp/gocryptotrader/backtester/common"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventtypes/event"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventtypes/signal"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/order"
 )
 
 // Order contains all details for an order event

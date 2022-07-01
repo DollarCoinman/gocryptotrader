@@ -7,14 +7,14 @@ import (
 	"os"
 	"strings"
 
+	"github.com/DollarCoinman/gocryptotrader/backtester/common"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/strategies"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/strategies/base"
+	gctcommon "github.com/DollarCoinman/gocryptotrader/common"
+	"github.com/DollarCoinman/gocryptotrader/common/file"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/asset"
+	"github.com/DollarCoinman/gocryptotrader/log"
 	"github.com/shopspring/decimal"
-	"github.com/thrasher-corp/gocryptotrader/backtester/common"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/strategies"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/strategies/base"
-	gctcommon "github.com/thrasher-corp/gocryptotrader/common"
-	"github.com/thrasher-corp/gocryptotrader/common/file"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/asset"
-	"github.com/thrasher-corp/gocryptotrader/log"
 )
 
 // ReadConfigFromFile will take a config from a path

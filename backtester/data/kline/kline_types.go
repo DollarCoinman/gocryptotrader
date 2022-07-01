@@ -3,8 +3,8 @@ package kline
 import (
 	"errors"
 
-	"github.com/thrasher-corp/gocryptotrader/backtester/data"
-	gctkline "github.com/thrasher-corp/gocryptotrader/exchanges/kline"
+	"github.com/DollarCoinman/gocryptotrader/backtester/data"
+	gctkline "github.com/DollarCoinman/gocryptotrader/exchanges/kline"
 )
 
 var errNoCandleData = errors.New("no candle data provided")

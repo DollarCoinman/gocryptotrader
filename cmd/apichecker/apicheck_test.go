@@ -6,10 +6,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/thrasher-corp/gocryptotrader/common/convert"
-	gctfile "github.com/thrasher-corp/gocryptotrader/common/file"
-	exchange "github.com/thrasher-corp/gocryptotrader/exchanges"
-	"github.com/thrasher-corp/gocryptotrader/log"
+	"github.com/DollarCoinman/gocryptotrader/common/convert"
+	gctfile "github.com/DollarCoinman/gocryptotrader/common/file"
+	exchange "github.com/DollarCoinman/gocryptotrader/exchanges"
+	"github.com/DollarCoinman/gocryptotrader/log"
 )
 
 var (

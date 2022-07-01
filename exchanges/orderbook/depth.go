@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/DollarCoinman/gocryptotrader/dispatch"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/alert"
+	"github.com/DollarCoinman/gocryptotrader/log"
 	"github.com/gofrs/uuid"
-	"github.com/thrasher-corp/gocryptotrader/dispatch"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/alert"
-	"github.com/thrasher-corp/gocryptotrader/log"
 )
 
 var (

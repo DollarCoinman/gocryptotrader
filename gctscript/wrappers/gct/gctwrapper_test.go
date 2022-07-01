@@ -8,13 +8,13 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/DollarCoinman/gocryptotrader/common"
+	"github.com/DollarCoinman/gocryptotrader/engine"
+	exchange "github.com/DollarCoinman/gocryptotrader/exchanges"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/asset"
+	"github.com/DollarCoinman/gocryptotrader/gctscript/modules"
+	"github.com/DollarCoinman/gocryptotrader/gctscript/modules/gct"
 	objects "github.com/d5/tengo/v2"
-	"github.com/thrasher-corp/gocryptotrader/common"
-	"github.com/thrasher-corp/gocryptotrader/engine"
-	exchange "github.com/thrasher-corp/gocryptotrader/exchanges"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/asset"
-	"github.com/thrasher-corp/gocryptotrader/gctscript/modules"
-	"github.com/thrasher-corp/gocryptotrader/gctscript/modules/gct"
 )
 
 func TestMain(m *testing.M) {

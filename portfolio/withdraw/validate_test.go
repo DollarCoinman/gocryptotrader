@@ -6,11 +6,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/thrasher-corp/gocryptotrader/core"
-	"github.com/thrasher-corp/gocryptotrader/currency"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/validate"
-	"github.com/thrasher-corp/gocryptotrader/portfolio"
-	"github.com/thrasher-corp/gocryptotrader/portfolio/banking"
+	"github.com/DollarCoinman/gocryptotrader/core"
+	"github.com/DollarCoinman/gocryptotrader/currency"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/validate"
+	"github.com/DollarCoinman/gocryptotrader/portfolio"
+	"github.com/DollarCoinman/gocryptotrader/portfolio/banking"
 )
 
 const (

@@ -9,9 +9,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/thrasher-corp/gocryptotrader/common"
-	"github.com/thrasher-corp/gocryptotrader/communications/base"
-	"github.com/thrasher-corp/gocryptotrader/log"
+	"github.com/DollarCoinman/gocryptotrader/common"
+	"github.com/DollarCoinman/gocryptotrader/communications/base"
+	"github.com/DollarCoinman/gocryptotrader/log"
 )
 
 const (

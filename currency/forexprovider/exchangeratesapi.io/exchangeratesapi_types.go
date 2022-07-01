@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/thrasher-corp/gocryptotrader/currency/forexprovider/base"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/request"
+	"github.com/DollarCoinman/gocryptotrader/currency/forexprovider/base"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/request"
 )
 
 const (

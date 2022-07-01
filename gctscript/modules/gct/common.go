@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/DollarCoinman/gocryptotrader/common"
+	"github.com/DollarCoinman/gocryptotrader/common/file"
+	"github.com/DollarCoinman/gocryptotrader/gctscript/modules/ta/indicators"
+	"github.com/DollarCoinman/gocryptotrader/log"
 	objects "github.com/d5/tengo/v2"
-	"github.com/thrasher-corp/gocryptotrader/common"
-	"github.com/thrasher-corp/gocryptotrader/common/file"
-	"github.com/thrasher-corp/gocryptotrader/gctscript/modules/ta/indicators"
-	"github.com/thrasher-corp/gocryptotrader/log"
 )
 
 var commonModule = map[string]objects.Object{

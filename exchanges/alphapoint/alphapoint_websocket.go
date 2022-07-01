@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
+	exchange "github.com/DollarCoinman/gocryptotrader/exchanges"
+	"github.com/DollarCoinman/gocryptotrader/log"
 	"github.com/gorilla/websocket"
-	exchange "github.com/thrasher-corp/gocryptotrader/exchanges"
-	"github.com/thrasher-corp/gocryptotrader/log"
 )
 
 const (

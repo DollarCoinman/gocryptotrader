@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/thrasher-corp/gocryptotrader/config"
+	"github.com/DollarCoinman/gocryptotrader/config"
 )
 
 func TestLoadConfigWithSettings(t *testing.T) {

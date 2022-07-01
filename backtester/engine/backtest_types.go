@@ -3,15 +3,15 @@ package engine
 import (
 	"errors"
 
-	"github.com/thrasher-corp/gocryptotrader/backtester/data"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/eventholder"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/exchange"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/portfolio"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/statistics"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/strategies"
-	"github.com/thrasher-corp/gocryptotrader/backtester/funding"
-	"github.com/thrasher-corp/gocryptotrader/backtester/report"
-	"github.com/thrasher-corp/gocryptotrader/engine"
+	"github.com/DollarCoinman/gocryptotrader/backtester/data"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/eventholder"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/exchange"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/portfolio"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/statistics"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/strategies"
+	"github.com/DollarCoinman/gocryptotrader/backtester/funding"
+	"github.com/DollarCoinman/gocryptotrader/backtester/report"
+	"github.com/DollarCoinman/gocryptotrader/engine"
 )
 
 var (

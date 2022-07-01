@@ -7,13 +7,13 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/thrasher-corp/gocryptotrader/common"
-	"github.com/thrasher-corp/gocryptotrader/config"
-	"github.com/thrasher-corp/gocryptotrader/core"
-	"github.com/thrasher-corp/gocryptotrader/database"
-	dbPSQL "github.com/thrasher-corp/gocryptotrader/database/drivers/postgres"
-	dbsqlite3 "github.com/thrasher-corp/gocryptotrader/database/drivers/sqlite3"
-	"github.com/thrasher-corp/gocryptotrader/database/repository"
+	"github.com/DollarCoinman/gocryptotrader/common"
+	"github.com/DollarCoinman/gocryptotrader/config"
+	"github.com/DollarCoinman/gocryptotrader/core"
+	"github.com/DollarCoinman/gocryptotrader/database"
+	dbPSQL "github.com/DollarCoinman/gocryptotrader/database/drivers/postgres"
+	dbsqlite3 "github.com/DollarCoinman/gocryptotrader/database/drivers/sqlite3"
+	"github.com/DollarCoinman/gocryptotrader/database/repository"
 	"github.com/thrasher-corp/goose"
 )
 

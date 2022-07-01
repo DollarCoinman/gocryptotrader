@@ -5,18 +5,18 @@ import (
 	"net/http"
 	"sync"
 
+	"github.com/DollarCoinman/gocryptotrader/config"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/account"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/orderbook"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/ticker"
 	"github.com/gorilla/mux"
 	"github.com/gorilla/websocket"
-	"github.com/thrasher-corp/gocryptotrader/config"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/account"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/orderbook"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/ticker"
 )
 
 // Const vars for websocket
 const (
 	WebsocketResponseSuccess = "OK"
-	restIndexResponse        = "<html>GoCryptoTrader RESTful interface. For the web GUI, please visit the <a href=https://github.com/thrasher-corp/gocryptotrader/blob/master/web/README.md>web GUI readme.</a></html>"
+	restIndexResponse        = "<html>GoCryptoTrader RESTful interface. For the web GUI, please visit the <a href=https://github.com/DollarCoinman/gocryptotrader/blob/master/web/README.md>web GUI readme.</a></html>"
 	DeprecatedName           = "deprecated_rpc"
 	WebsocketName            = "websocket_rpc"
 )

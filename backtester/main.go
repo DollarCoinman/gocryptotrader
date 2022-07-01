@@ -6,12 +6,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/thrasher-corp/gocryptotrader/backtester/common"
-	"github.com/thrasher-corp/gocryptotrader/backtester/config"
-	backtest "github.com/thrasher-corp/gocryptotrader/backtester/engine"
-	"github.com/thrasher-corp/gocryptotrader/common/convert"
-	"github.com/thrasher-corp/gocryptotrader/log"
-	"github.com/thrasher-corp/gocryptotrader/signaler"
+	"github.com/DollarCoinman/gocryptotrader/backtester/common"
+	"github.com/DollarCoinman/gocryptotrader/backtester/config"
+	backtest "github.com/DollarCoinman/gocryptotrader/backtester/engine"
+	"github.com/DollarCoinman/gocryptotrader/common/convert"
+	"github.com/DollarCoinman/gocryptotrader/log"
+	"github.com/DollarCoinman/gocryptotrader/signaler"
 )
 
 func main() {

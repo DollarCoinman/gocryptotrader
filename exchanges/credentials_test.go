@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/thrasher-corp/gocryptotrader/config"
+	"github.com/DollarCoinman/gocryptotrader/config"
 	"google.golang.org/grpc/metadata"
 )
 

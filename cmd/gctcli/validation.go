@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/thrasher-corp/gocryptotrader/exchanges/asset"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/asset"
 )
 
 var (

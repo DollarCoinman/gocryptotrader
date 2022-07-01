@@ -1,9 +1,9 @@
 package base
 
 import (
-	"github.com/thrasher-corp/gocryptotrader/backtester/common"
-	"github.com/thrasher-corp/gocryptotrader/backtester/data"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventtypes/signal"
+	"github.com/DollarCoinman/gocryptotrader/backtester/common"
+	"github.com/DollarCoinman/gocryptotrader/backtester/data"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventtypes/signal"
 )
 
 // Strategy is base implementation of the Handler interface

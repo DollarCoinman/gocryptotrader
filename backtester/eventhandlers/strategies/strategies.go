@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/strategies/base"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/strategies/dollarcostaverage"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/strategies/ftxcashandcarry"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/strategies/rsi"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/strategies/top2bottom2"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/strategies/base"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/strategies/dollarcostaverage"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/strategies/ftxcashandcarry"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/strategies/rsi"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/strategies/top2bottom2"
 )
 
 // LoadStrategyByName returns the strategy by its name

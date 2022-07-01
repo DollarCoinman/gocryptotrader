@@ -13,12 +13,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/DollarCoinman/gocryptotrader/common/crypto"
+	exchange "github.com/DollarCoinman/gocryptotrader/exchanges"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/asset"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/request"
+	"github.com/DollarCoinman/gocryptotrader/log"
 	"github.com/google/go-querystring/query"
-	"github.com/thrasher-corp/gocryptotrader/common/crypto"
-	exchange "github.com/thrasher-corp/gocryptotrader/exchanges"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/asset"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/request"
-	"github.com/thrasher-corp/gocryptotrader/log"
 )
 
 const (

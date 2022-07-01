@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/DollarCoinman/gocryptotrader/currency"
 	"github.com/shopspring/decimal"
-	"github.com/thrasher-corp/gocryptotrader/currency"
 )
 
 func TestMatchesExchange(t *testing.T) {

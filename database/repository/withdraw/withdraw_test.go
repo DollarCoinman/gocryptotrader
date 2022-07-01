@@ -9,13 +9,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/thrasher-corp/gocryptotrader/currency"
-	"github.com/thrasher-corp/gocryptotrader/database"
-	"github.com/thrasher-corp/gocryptotrader/database/drivers"
-	"github.com/thrasher-corp/gocryptotrader/database/repository/exchange"
-	"github.com/thrasher-corp/gocryptotrader/database/testhelpers"
-	"github.com/thrasher-corp/gocryptotrader/portfolio/banking"
-	"github.com/thrasher-corp/gocryptotrader/portfolio/withdraw"
+	"github.com/DollarCoinman/gocryptotrader/currency"
+	"github.com/DollarCoinman/gocryptotrader/database"
+	"github.com/DollarCoinman/gocryptotrader/database/drivers"
+	"github.com/DollarCoinman/gocryptotrader/database/repository/exchange"
+	"github.com/DollarCoinman/gocryptotrader/database/testhelpers"
+	"github.com/DollarCoinman/gocryptotrader/portfolio/banking"
+	"github.com/DollarCoinman/gocryptotrader/portfolio/withdraw"
 )
 
 var (

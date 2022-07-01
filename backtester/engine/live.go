@@ -4,16 +4,16 @@ import (
 	"context"
 	"time"
 
-	"github.com/thrasher-corp/gocryptotrader/backtester/common"
-	"github.com/thrasher-corp/gocryptotrader/backtester/config"
-	"github.com/thrasher-corp/gocryptotrader/backtester/data"
-	"github.com/thrasher-corp/gocryptotrader/backtester/data/kline"
-	"github.com/thrasher-corp/gocryptotrader/backtester/data/kline/live"
-	"github.com/thrasher-corp/gocryptotrader/currency"
-	gctexchange "github.com/thrasher-corp/gocryptotrader/exchanges"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/asset"
-	gctkline "github.com/thrasher-corp/gocryptotrader/exchanges/kline"
-	"github.com/thrasher-corp/gocryptotrader/log"
+	"github.com/DollarCoinman/gocryptotrader/backtester/common"
+	"github.com/DollarCoinman/gocryptotrader/backtester/config"
+	"github.com/DollarCoinman/gocryptotrader/backtester/data"
+	"github.com/DollarCoinman/gocryptotrader/backtester/data/kline"
+	"github.com/DollarCoinman/gocryptotrader/backtester/data/kline/live"
+	"github.com/DollarCoinman/gocryptotrader/currency"
+	gctexchange "github.com/DollarCoinman/gocryptotrader/exchanges"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/asset"
+	gctkline "github.com/DollarCoinman/gocryptotrader/exchanges/kline"
+	"github.com/DollarCoinman/gocryptotrader/log"
 )
 
 // RunLive is a proof of concept function that does not yet support multi currency usage

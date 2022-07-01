@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/DollarCoinman/gocryptotrader/exchanges/order"
 	"github.com/shopspring/decimal"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/order"
 )
 
 var (

@@ -3,9 +3,9 @@ package fill
 import (
 	"testing"
 
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventtypes/signal"
+	gctorder "github.com/DollarCoinman/gocryptotrader/exchanges/order"
 	"github.com/shopspring/decimal"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventtypes/signal"
-	gctorder "github.com/thrasher-corp/gocryptotrader/exchanges/order"
 )
 
 func TestSetDirection(t *testing.T) {

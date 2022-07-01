@@ -3,12 +3,12 @@ package kline
 import (
 	"time"
 
+	"github.com/DollarCoinman/gocryptotrader/backtester/common"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventtypes/event"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventtypes/kline"
+	gctkline "github.com/DollarCoinman/gocryptotrader/exchanges/kline"
+	"github.com/DollarCoinman/gocryptotrader/log"
 	"github.com/shopspring/decimal"
-	"github.com/thrasher-corp/gocryptotrader/backtester/common"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventtypes/event"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventtypes/kline"
-	gctkline "github.com/thrasher-corp/gocryptotrader/exchanges/kline"
-	"github.com/thrasher-corp/gocryptotrader/log"
 )
 
 // HasDataAtTime verifies checks the underlying range data

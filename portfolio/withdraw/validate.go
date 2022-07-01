@@ -4,8 +4,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/thrasher-corp/gocryptotrader/currency"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/validate"
+	"github.com/DollarCoinman/gocryptotrader/currency"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/validate"
 )
 
 // Validate takes interface and passes to asset type to check the request meets requirements to submit

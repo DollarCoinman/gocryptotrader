@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/DollarCoinman/gocryptotrader/gctscript/wrappers/validator"
+	"github.com/DollarCoinman/gocryptotrader/log"
 	"github.com/gofrs/uuid"
-	"github.com/thrasher-corp/gocryptotrader/gctscript/wrappers/validator"
-	"github.com/thrasher-corp/gocryptotrader/log"
 )
 
 // New returns a new instance of VM

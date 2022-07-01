@@ -5,16 +5,16 @@ import (
 	"testing"
 	"time"
 
+	"github.com/DollarCoinman/gocryptotrader/backtester/common"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/portfolio"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/statistics"
+	evkline "github.com/DollarCoinman/gocryptotrader/backtester/eventtypes/kline"
+	"github.com/DollarCoinman/gocryptotrader/backtester/funding"
+	"github.com/DollarCoinman/gocryptotrader/currency"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/asset"
+	gctkline "github.com/DollarCoinman/gocryptotrader/exchanges/kline"
+	gctorder "github.com/DollarCoinman/gocryptotrader/exchanges/order"
 	"github.com/shopspring/decimal"
-	"github.com/thrasher-corp/gocryptotrader/backtester/common"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/portfolio"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/statistics"
-	evkline "github.com/thrasher-corp/gocryptotrader/backtester/eventtypes/kline"
-	"github.com/thrasher-corp/gocryptotrader/backtester/funding"
-	"github.com/thrasher-corp/gocryptotrader/currency"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/asset"
-	gctkline "github.com/thrasher-corp/gocryptotrader/exchanges/kline"
-	gctorder "github.com/thrasher-corp/gocryptotrader/exchanges/order"
 )
 
 func TestCreateUSDTotalsChart(t *testing.T) {

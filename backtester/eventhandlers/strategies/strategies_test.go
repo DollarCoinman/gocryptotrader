@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/strategies/base"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/strategies/dollarcostaverage"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/strategies/rsi"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/strategies/base"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/strategies/dollarcostaverage"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/strategies/rsi"
 )
 
 func TestGetStrategies(t *testing.T) {

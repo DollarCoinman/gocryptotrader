@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/thrasher-corp/gocryptotrader/communications/base"
-	"github.com/thrasher-corp/gocryptotrader/config"
+	"github.com/DollarCoinman/gocryptotrader/communications/base"
+	"github.com/DollarCoinman/gocryptotrader/config"
 )
 
 type group struct {

@@ -5,15 +5,15 @@ import (
 	"testing"
 	"time"
 
+	"github.com/DollarCoinman/gocryptotrader/backtester/common"
+	"github.com/DollarCoinman/gocryptotrader/backtester/data/kline"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventtypes/event"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventtypes/signal"
+	"github.com/DollarCoinman/gocryptotrader/currency"
+	"github.com/DollarCoinman/gocryptotrader/engine"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/asset"
+	gctkline "github.com/DollarCoinman/gocryptotrader/exchanges/kline"
 	"github.com/shopspring/decimal"
-	"github.com/thrasher-corp/gocryptotrader/backtester/common"
-	"github.com/thrasher-corp/gocryptotrader/backtester/data/kline"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventtypes/event"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventtypes/signal"
-	"github.com/thrasher-corp/gocryptotrader/currency"
-	"github.com/thrasher-corp/gocryptotrader/engine"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/asset"
-	gctkline "github.com/thrasher-corp/gocryptotrader/exchanges/kline"
 )
 
 var (

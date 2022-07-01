@@ -1,8 +1,8 @@
 package kline
 
 import (
+	"github.com/DollarCoinman/gocryptotrader/currency"
 	"github.com/shopspring/decimal"
-	"github.com/thrasher-corp/gocryptotrader/currency"
 )
 
 // GetClosePrice returns the closing price of a kline

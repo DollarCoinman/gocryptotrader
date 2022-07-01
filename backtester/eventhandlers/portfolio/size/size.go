@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/DollarCoinman/gocryptotrader/backtester/common"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/exchange"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventtypes/order"
+	gctorder "github.com/DollarCoinman/gocryptotrader/exchanges/order"
 	"github.com/shopspring/decimal"
-	"github.com/thrasher-corp/gocryptotrader/backtester/common"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/exchange"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventtypes/order"
-	gctorder "github.com/thrasher-corp/gocryptotrader/exchanges/order"
 )
 
 // SizeOrder is responsible for ensuring that the order size is within config limits

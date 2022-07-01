@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/DollarCoinman/gocryptotrader/exchanges/asset"
+	"github.com/DollarCoinman/gocryptotrader/gctscript/modules/ta/indicators"
 	objects "github.com/d5/tengo/v2"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/asset"
-	"github.com/thrasher-corp/gocryptotrader/gctscript/modules/ta/indicators"
 )
 
 var (

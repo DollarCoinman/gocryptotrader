@@ -3,9 +3,9 @@ package ftx
 import (
 	"time"
 
+	"github.com/DollarCoinman/gocryptotrader/currency"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/order"
 	"github.com/shopspring/decimal"
-	"github.com/thrasher-corp/gocryptotrader/currency"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/order"
 )
 
 // MarginFundingData stores borrowing/lending data for margin trading

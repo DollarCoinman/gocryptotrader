@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/DollarCoinman/gocryptotrader/gctscript/modules"
 	"github.com/thrasher-corp/gct-ta/indicators"
-	"github.com/thrasher-corp/gocryptotrader/gctscript/modules"
 )
 
 // OHLCV locale string for OHLCV data conversion failure

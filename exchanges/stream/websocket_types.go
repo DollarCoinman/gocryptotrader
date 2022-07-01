@@ -4,12 +4,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/DollarCoinman/gocryptotrader/config"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/fill"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/protocol"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/stream/buffer"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/trade"
 	"github.com/gorilla/websocket"
-	"github.com/thrasher-corp/gocryptotrader/config"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/fill"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/protocol"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/stream/buffer"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/trade"
 )
 
 // Websocket functionality list and state consts

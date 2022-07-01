@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
+	gctorder "github.com/DollarCoinman/gocryptotrader/exchanges/order"
 	"github.com/shopspring/decimal"
-	gctorder "github.com/thrasher-corp/gocryptotrader/exchanges/order"
 )
 
 func TestAddSnapshot(t *testing.T) {

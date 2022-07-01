@@ -12,10 +12,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/thrasher-corp/gocryptotrader/common/timedmutex"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/mock"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/nonce"
-	"github.com/thrasher-corp/gocryptotrader/log"
+	"github.com/DollarCoinman/gocryptotrader/common/timedmutex"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/mock"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/nonce"
+	"github.com/DollarCoinman/gocryptotrader/log"
 )
 
 const contextVerboseFlag verbosity = "verbose"

@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/DollarCoinman/gocryptotrader/backtester/common"
+	gctmath "github.com/DollarCoinman/gocryptotrader/common/math"
+	gctkline "github.com/DollarCoinman/gocryptotrader/exchanges/kline"
+	"github.com/DollarCoinman/gocryptotrader/log"
 	"github.com/shopspring/decimal"
-	"github.com/thrasher-corp/gocryptotrader/backtester/common"
-	gctmath "github.com/thrasher-corp/gocryptotrader/common/math"
-	gctkline "github.com/thrasher-corp/gocryptotrader/exchanges/kline"
-	"github.com/thrasher-corp/gocryptotrader/log"
 )
 
 // fSIL shorthand wrapper for FitStringToLimit

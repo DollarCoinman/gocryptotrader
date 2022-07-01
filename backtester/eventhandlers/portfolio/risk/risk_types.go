@@ -3,12 +3,12 @@ package risk
 import (
 	"errors"
 
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/portfolio/compliance"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventhandlers/portfolio/holdings"
+	"github.com/DollarCoinman/gocryptotrader/backtester/eventtypes/order"
+	"github.com/DollarCoinman/gocryptotrader/currency"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/asset"
 	"github.com/shopspring/decimal"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/portfolio/compliance"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventhandlers/portfolio/holdings"
-	"github.com/thrasher-corp/gocryptotrader/backtester/eventtypes/order"
-	"github.com/thrasher-corp/gocryptotrader/currency"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/asset"
 )
 
 var (

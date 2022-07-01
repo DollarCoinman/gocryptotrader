@@ -3,11 +3,11 @@
 <img src="/backtester/common/backtester.png?raw=true" width="350px" height="350px" hspace="70">
 
 
-[![Build Status](https://github.com/thrasher-corp/gocryptotrader/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/thrasher-corp/gocryptotrader/actions/workflows/tests.yml)
-[![Software License](https://img.shields.io/badge/License-MIT-orange.svg?style=flat-square)](https://github.com/thrasher-corp/gocryptotrader/blob/master/LICENSE)
-[![GoDoc](https://godoc.org/github.com/thrasher-corp/gocryptotrader?status.svg)](https://godoc.org/github.com/thrasher-corp/gocryptotrader/backtester/funding)
+[![Build Status](https://github.com/DollarCoinman/gocryptotrader/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/DollarCoinman/gocryptotrader/actions/workflows/tests.yml)
+[![Software License](https://img.shields.io/badge/License-MIT-orange.svg?style=flat-square)](https://github.com/DollarCoinman/gocryptotrader/blob/master/LICENSE)
+[![GoDoc](https://godoc.org/github.com/DollarCoinman/gocryptotrader?status.svg)](https://godoc.org/github.com/DollarCoinman/gocryptotrader/backtester/funding)
 [![Coverage Status](http://codecov.io/github/thrasher-corp/gocryptotrader/coverage.svg?branch=master)](http://codecov.io/github/thrasher-corp/gocryptotrader?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/thrasher-corp/gocryptotrader)](https://goreportcard.com/report/github.com/thrasher-corp/gocryptotrader)
+[![Go Report Card](https://goreportcard.com/badge/github.com/DollarCoinman/gocryptotrader)](https://goreportcard.com/report/github.com/DollarCoinman/gocryptotrader)
 
 
 This funding package is part of the GoCryptoTrader codebase.
@@ -82,8 +82,8 @@ No. The already existing `CurrencySettings` will populate the funding manager wi
 
 | Key | Description | Example |
 | --- | ------- | ----- |
-| ExchangeName | The exchange to set funds. See [here](https://github.com/thrasher-corp/gocryptotrader/blob/master/README.md) for a list of supported exchanges | `Binance` |
-| Asset | The asset type to set funds. Typically, this will be `spot`, however, see [this package](https://github.com/thrasher-corp/gocryptotrader/blob/master/exchanges/asset/asset.go) for the various asset types GoCryptoTrader supports| `spot` |
+| ExchangeName | The exchange to set funds. See [here](https://github.com/DollarCoinman/gocryptotrader/blob/master/README.md) for a list of supported exchanges | `Binance` |
+| Asset | The asset type to set funds. Typically, this will be `spot`, however, see [this package](https://github.com/DollarCoinman/gocryptotrader/blob/master/exchanges/asset/asset.go) for the various asset types GoCryptoTrader supports| `spot` |
 | Currency | The currency to set funds | `BTC` |
 | InitialFunds | The initial funding for the currency | `1337` |
 | TransferFee | If your strategy utilises transferring of funds via the Funding Manager, this is deducted upon doing so | `0.005` |
@@ -98,12 +98,12 @@ When submitting a PR, please abide by our coding guidelines:
 
 + Code must adhere to the official Go [formatting](https://golang.org/doc/effective_go.html#formatting) guidelines (i.e. uses [gofmt](https://golang.org/cmd/gofmt/)).
 + Code must be documented adhering to the official Go [commentary](https://golang.org/doc/effective_go.html#commentary) guidelines.
-+ Code must adhere to our [coding style](https://github.com/thrasher-corp/gocryptotrader/blob/master/doc/coding_style.md).
++ Code must adhere to our [coding style](https://github.com/DollarCoinman/gocryptotrader/blob/master/doc/coding_style.md).
 + Pull requests need to be based on and opened against the `master` branch.
 
 ## Donations
 
-<img src="https://github.com/thrasher-corp/gocryptotrader/blob/master/web/src/assets/donate.png?raw=true" hspace="70">
+<img src="https://github.com/DollarCoinman/gocryptotrader/blob/master/web/src/assets/donate.png?raw=true" hspace="70">
 
 If this framework helped you in any way, or you would like to support the developers working on it, please donate Bitcoin to:
 

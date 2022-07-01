@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/thrasher-corp/gocryptotrader/database"
-	"github.com/thrasher-corp/gocryptotrader/database/drivers"
+	"github.com/DollarCoinman/gocryptotrader/database"
+	"github.com/DollarCoinman/gocryptotrader/database/drivers"
 )
 
 func TestMain(m *testing.M) {

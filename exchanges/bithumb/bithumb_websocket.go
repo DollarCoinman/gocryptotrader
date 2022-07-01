@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/DollarCoinman/gocryptotrader/exchanges/asset"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/stream"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/ticker"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/trade"
 	"github.com/gorilla/websocket"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/asset"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/stream"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/ticker"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/trade"
 )
 
 const (

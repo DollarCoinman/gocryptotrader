@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/thrasher-corp/gocryptotrader/config"
+	"github.com/DollarCoinman/gocryptotrader/config"
 )
 
 func TestSetupConnectionManager(t *testing.T) {

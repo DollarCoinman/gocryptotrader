@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/thrasher-corp/gocryptotrader/database/testhelpers"
+	"github.com/DollarCoinman/gocryptotrader/database/testhelpers"
 )
 
 func TestMain(m *testing.M) {

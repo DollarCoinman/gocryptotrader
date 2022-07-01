@@ -14,9 +14,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/thrasher-corp/gocryptotrader/common"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/request"
-	"github.com/thrasher-corp/gocryptotrader/log"
+	"github.com/DollarCoinman/gocryptotrader/common"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/request"
+	"github.com/DollarCoinman/gocryptotrader/log"
 )
 
 // NewFromSettings returns a new coin market cap instance with supplied settings

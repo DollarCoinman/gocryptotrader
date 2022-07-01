@@ -8,7 +8,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/thrasher-corp/gocryptotrader/common"
+	"github.com/DollarCoinman/gocryptotrader/common"
 	"google.golang.org/grpc"
 )
 

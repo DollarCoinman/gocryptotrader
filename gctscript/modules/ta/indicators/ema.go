@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/DollarCoinman/gocryptotrader/gctscript/modules"
+	"github.com/DollarCoinman/gocryptotrader/gctscript/wrappers/validator"
 	objects "github.com/d5/tengo/v2"
 	"github.com/thrasher-corp/gct-ta/indicators"
-	"github.com/thrasher-corp/gocryptotrader/gctscript/modules"
-	"github.com/thrasher-corp/gocryptotrader/gctscript/wrappers/validator"
 )
 
 // EMAModule EMA indicator commands

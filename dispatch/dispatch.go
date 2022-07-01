@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/DollarCoinman/gocryptotrader/log"
 	"github.com/gofrs/uuid"
-	"github.com/thrasher-corp/gocryptotrader/log"
 )
 
 var (

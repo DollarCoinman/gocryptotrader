@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/DollarCoinman/gocryptotrader/currency"
+	gctorder "github.com/DollarCoinman/gocryptotrader/exchanges/order"
 	"github.com/shopspring/decimal"
-	"github.com/thrasher-corp/gocryptotrader/currency"
-	gctorder "github.com/thrasher-corp/gocryptotrader/exchanges/order"
 )
 
 // collateral related errors

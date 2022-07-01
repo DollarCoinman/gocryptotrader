@@ -10,9 +10,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/thrasher-corp/gocryptotrader/config"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/mock"
-	"github.com/thrasher-corp/gocryptotrader/exchanges/sharedtestvalues"
+	"github.com/DollarCoinman/gocryptotrader/config"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/mock"
+	"github.com/DollarCoinman/gocryptotrader/exchanges/sharedtestvalues"
 )
 
 const mockfile = "../../testdata/http_mock/poloniex/poloniex.json"
